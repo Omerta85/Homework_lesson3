@@ -1,0 +1,50 @@
+.position{
+    position: absolute;
+}
+.w600{
+    width: 600px;
+}
+.high{
+    height: 300px;
+    background: darkblue;
+    top: 100px;
+}
+.target{
+    height: 50px;
+    bottom: -10px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+
+}
+.box1{
+    width: 80px;
+    height: 80px;
+    background: mediumpurple;
+    border-radius: 5px;
+}
+.low {
+    height: 500px;
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon1, .icon2{
+    color: #494646;
+    top: 50px;
+}
+.icon1{
+    left: 550px;
+}
+.icon2{
+    left: 525px;
+}
+.box{
+    width: 150px;
+    height: 50px;
+    background: darkblue;
+    top: 25px;
+    left: 80px;
+    border-radius: 5px;
+}

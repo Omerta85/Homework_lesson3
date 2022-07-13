@@ -1,0 +1,51 @@
+body{
+    width: 850px;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px;
+}
+
+.card {
+    width: 250px;
+    height: 400px;
+    box-sizing: border-box;
+    border: 2px solid #b1adad;
+    padding-top: 30px;
+    position: relative;
+}
+
+.card > h3{
+    text-align: center;
+}
+.card > p{
+    text-align: center;
+    padding: 20px;
+    color: silver;
+}
+.button-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-box>button{
+    width: 175px;
+    height: 60px;
+    background: white;
+}
+.icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #b1adad;
+    font-size: 40px;
+    color: #a46404;
+    position: relative;
+    top: -70px;
+    left: 70px;
+    background: white;
+}
