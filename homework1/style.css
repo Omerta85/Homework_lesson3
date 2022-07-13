@@ -44,8 +44,8 @@ body{
     border: 2px solid #b1adad;
     font-size: 40px;
     color: #a46404;
-    position: relative;
-    top: -70px;
-    left: 70px;
+    position: absolute;
+    top: -50px;
+    left: 85px;
     background: white;
 }
